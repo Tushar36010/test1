@@ -1,7 +1,7 @@
 //http://localhost:3000/users
 var express=require("express");
 var app=express();
-app.listen(3000);
+
 var bodyParser=require("body-parser");
 var url=bodyParser.urlencoded({extended:false});
 app.use(bodyParser.json());
