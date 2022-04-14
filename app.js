@@ -36,7 +36,7 @@ res.send(json);
 var request = require('request'); 
 
 function updateClient(postData)
-{ var clientServerOptions = { uri: 'http://localhost:3000/users',
+{ var clientServerOptions = { uri: 'https://test1tushar.herokuapp.com/users',
 body: JSON.stringify(postData), 
 method: 'POST', 
 headers: { 'Content-Type': 'application/json' } } 
