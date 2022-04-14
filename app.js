@@ -42,7 +42,7 @@ method: 'POST',
 headers: { 'Content-Type': 'application/json' } } 
 request(clientServerOptions, 
 function (error, response) 
-{ console.log(error,response.body);
+{ console.log(error,response);
  return; 
 }); 
 }
